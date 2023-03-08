@@ -13,8 +13,12 @@ body {
 }
 
 .screen {
-  width: 1500px;
-  height: 500px;
+  max-width: 70%;
+  max-height: 40%;
+  width: 60%;
+  height: 40%;
+  min-width: 60%;
+  min-height: 40%;
   margin: auto;
   position: fixed;
   top: 50%;
