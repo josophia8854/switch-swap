@@ -1,9 +1,9 @@
 body {
   margin: 0;
   background: rgb(0, 0, 0);
-  -moz-perspective: 800;
-  -webkit-perspective: 800;
-  perspective: 800;
+  -moz-perspective: 1000;
+  -webkit-perspective: 1000;
+  perspective: 1000;
   color: white;
   font-family: hwt-mardell, sans-serif;
   font-weight: 400;
@@ -13,33 +13,35 @@ body {
 }
 
 .screen {
-  max-width: 70%;
-  max-height: 40%;
-  width: 60%;
-  height: 40%;
-  min-width: 60%;
-  min-height: 40%;
+  /* max-width: 70%;
+  max-height: 40%; */
+  width: 90%;
+  height: 1000%;
+  /* min-width: 60%;
+  min-height: 40%; */
   margin: auto;
   position: fixed;
-  top: 50%;
+  top: 1600%;
   left: 50%;
   transform: translate(-50%, -50%);
   overflow: hidden;
   -moz-transform-style: preserve-3d;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  -moz-perspective: 1000px;
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
+  -moz-perspective: 1600px;
+  -webkit-perspective: 1600px;
+  perspective: 1600px;
 }
 
 ul {
   display: block;
-  position: relative;
-  top: 100px;
-  width: 100%;
+  position: fixed;
+  width: 80%;
+  height: 200%;
   margin: 0 auto;
   padding: 0;
+  left: 10%;
+  transform: translate(-50%, -50%);
   -moz-transform-style: preserve-3d;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
@@ -49,7 +51,7 @@ ul {
 }
 
 li {
-  position: absolute;
+  position: fixed;
   display: block;
   list-style: none;
   width: 100%;
@@ -60,8 +62,8 @@ li {
 }
 li > div {
   float: left;
-  width: 350px;
-  height: 160px;
+  width: 420px;
+  height: 192px;
   line-height: 100px;
   text-align: center;
   cursor: pointer;
