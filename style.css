@@ -21,7 +21,7 @@ body {
   min-height: 40%; */
   margin: auto;
   position: fixed;
-  top: 1600%;
+  top: 1500%;
   left: 50%;
   transform: translate(-50%, -50%);
   overflow: hidden;
