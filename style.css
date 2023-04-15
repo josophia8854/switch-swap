@@ -62,8 +62,8 @@ li {
 }
 li > div {
   float: left;
-  width: 420px;
-  height: 192px;
+  width: 350px;
+  height: 160px;
   line-height: 100px;
   text-align: center;
   cursor: pointer;
